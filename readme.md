@@ -54,3 +54,11 @@ This is the hw03 sample. Please follow the steps below.
 --------------------
 
 **★★★ Please take your note here ★★★**
+
+1.利用mov指令將x,y的值5，6存入R0和R1中。
+
+2.使用str指令將r0和r1的值分別存入r7 offset#4和r7 offset#0中。
+
+3.再將這兩個值存入r2和r3中，並利用r2和r3進行函式x+y的運算。
+
+4.最後將答案傳回r0。
