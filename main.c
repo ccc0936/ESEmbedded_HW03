@@ -1,5 +1,12 @@
+int fun(int x,int y)
+{
+
+	return x+y;
+		
+}
 void reset_handler(void)
 {
-	while (1)
-		;
+	
+	fun(5,6);
+	while(1);
 }
